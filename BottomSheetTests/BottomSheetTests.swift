@@ -2,8 +2,8 @@
 //  BottomSheetTests.swift
 //  BottomSheetTests
 //
-//  Created by Kuliza on 10/13/16.
-//  Copyright © 2016 Kuliza. All rights reserved.
+//  Created by Dipansha on 10/13/16.
+//  Copyright © 2016 Dipansha. All rights reserved.
 //
 
 import XCTest

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="ActionSheetCollectionViewCell" customModule="Turvo" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="204" height="132"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="204" height="132"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qo3-Kv-SAO">
+                        <rect key="frame" x="58.5" y="8" width="87" height="87"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="Qo3-Kv-SAO" secondAttribute="height" multiplier="1:1" id="eou-8W-XFR"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="750" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Q6s-gc-aI9">
+                        <rect key="frame" x="81" y="103" width="42" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            </view>
+            <constraints>
+                <constraint firstItem="Q6s-gc-aI9" firstAttribute="top" secondItem="Qo3-Kv-SAO" secondAttribute="bottom" constant="8" id="8zJ-8o-RL0"/>
+                <constraint firstItem="Qo3-Kv-SAO" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="8" id="Beq-Al-2XM"/>
+                <constraint firstAttribute="bottom" secondItem="Q6s-gc-aI9" secondAttribute="bottom" constant="8" id="CDr-z1-BUT"/>
+                <constraint firstItem="Q6s-gc-aI9" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="Ny4-qs-591"/>
+                <constraint firstItem="Qo3-Kv-SAO" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="pBH-GX-JXk"/>
+            </constraints>
+            <size key="customSize" width="204" height="132"/>
+            <connections>
+                <outlet property="iconLabel" destination="Qo3-Kv-SAO" id="Pzn-3K-Ck8"/>
+                <outlet property="textLabel" destination="Q6s-gc-aI9" id="4Gp-9f-8eT"/>
+            </connections>
+            <point key="canvasLocation" x="216" y="263"/>
+        </collectionViewCell>
+    </objects>
+</document>

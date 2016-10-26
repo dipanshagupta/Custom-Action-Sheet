@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="ActionSheetView" customModule="BottomSheet" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="none" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="N6Q-Ee-jEx">
+                    <rect key="frame" x="0.0" y="41" width="600" height="559"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </tableView>
+                <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="Rov-fl-fgF">
+                    <rect key="frame" x="0.0" y="41" width="600" height="559"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="N6h-Gr-Tvs">
+                        <size key="itemSize" width="50" height="50"/>
+                        <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                        <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                        <inset key="sectionInset" minX="20" minY="0.0" maxX="20" maxY="0.0"/>
+                    </collectionViewFlowLayout>
+                </collectionView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JlQ-bR-Jbb">
+                    <rect key="frame" x="0.0" y="41" width="600" height="1"/>
+                    <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="1" id="pej-Vu-SVS"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tSU-5W-xkK">
+                    <rect key="frame" x="0.0" y="0.0" width="600" height="41"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="P7M-1U-FPE">
+                            <rect key="frame" x="16" y="10" width="576" height="21"/>
+                            <constraints>
+                                <constraint firstAttribute="height" relation="greaterThanOrEqual" id="6SN-Tg-tZx"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="P7M-1U-FPE" firstAttribute="top" secondItem="tSU-5W-xkK" secondAttribute="top" constant="10" id="Ls2-o5-gnw"/>
+                        <constraint firstItem="P7M-1U-FPE" firstAttribute="leading" secondItem="tSU-5W-xkK" secondAttribute="leading" constant="16" id="XTM-gK-rsf"/>
+                        <constraint firstAttribute="bottom" secondItem="P7M-1U-FPE" secondAttribute="bottom" constant="10" id="qxv-gL-YaB"/>
+                        <constraint firstAttribute="trailing" secondItem="P7M-1U-FPE" secondAttribute="trailing" constant="8" id="zWj-yK-Q2i"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="JlQ-bR-Jbb" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="236" id="2KH-XC-cSm"/>
+                <constraint firstItem="Rov-fl-fgF" firstAttribute="top" secondItem="tSU-5W-xkK" secondAttribute="bottom" id="Hbv-PU-Fhm"/>
+                <constraint firstAttribute="bottom" secondItem="Rov-fl-fgF" secondAttribute="bottom" id="HlP-xv-2Zq"/>
+                <constraint firstItem="N6Q-Ee-jEx" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="SNb-2B-VqV"/>
+                <constraint firstItem="JlQ-bR-Jbb" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="YOR-sX-25C"/>
+                <constraint firstItem="tSU-5W-xkK" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="dog-aZ-pg6"/>
+                <constraint firstAttribute="trailing" secondItem="tSU-5W-xkK" secondAttribute="trailing" id="iOd-wY-kHs"/>
+                <constraint firstAttribute="trailing" secondItem="N6Q-Ee-jEx" secondAttribute="trailing" id="j1G-5C-SVy"/>
+                <constraint firstItem="tSU-5W-xkK" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="jRE-c5-n5y"/>
+                <constraint firstAttribute="trailing" secondItem="Rov-fl-fgF" secondAttribute="trailing" id="kXb-Ny-d0m"/>
+                <constraint firstAttribute="bottom" secondItem="N6Q-Ee-jEx" secondAttribute="bottom" id="lp8-y4-sOO"/>
+                <constraint firstItem="N6Q-Ee-jEx" firstAttribute="top" secondItem="tSU-5W-xkK" secondAttribute="bottom" id="o5N-Xq-1G2"/>
+                <constraint firstItem="Rov-fl-fgF" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="pg1-f1-Ksd"/>
+                <constraint firstItem="JlQ-bR-Jbb" firstAttribute="top" secondItem="tSU-5W-xkK" secondAttribute="bottom" id="tdf-WZ-Xsg"/>
+                <constraint firstAttribute="trailing" secondItem="JlQ-bR-Jbb" secondAttribute="trailing" id="wBc-gb-TH2"/>
+            </constraints>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="2KH-XC-cSm"/>
+                </mask>
+            </variation>
+            <connections>
+                <outlet property="collectionView" destination="Rov-fl-fgF" id="HVj-Ac-c4f"/>
+                <outlet property="separator" destination="JlQ-bR-Jbb" id="r06-Lo-w7Q"/>
+                <outlet property="tableView" destination="N6Q-Ee-jEx" id="vEv-cX-Mjl"/>
+                <outlet property="titleBottom" destination="qxv-gL-YaB" id="Fdt-ga-16g"/>
+                <outlet property="titleLabel" destination="P7M-1U-FPE" id="Us7-hJ-gco"/>
+                <outlet property="titleTop" destination="Ls2-o5-gnw" id="fB0-L4-Fuj"/>
+                <outlet property="titleView" destination="tSU-5W-xkK" id="2cs-15-LHC"/>
+            </connections>
+            <point key="canvasLocation" x="119" y="345"/>
+        </view>
+    </objects>
+</document>

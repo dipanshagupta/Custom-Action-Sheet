@@ -7,12 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3196533F1DC0DA63009FDFB1 /* customfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3196533E1DC0DA63009FDFB1 /* customfont.ttf */; };
 		31AB4CDE1DAF6B62006A2404 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31AB4CDD1DAF6B62006A2404 /* AppDelegate.swift */; };
 		31AB4CE01DAF6B62006A2404 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31AB4CDF1DAF6B62006A2404 /* ViewController.swift */; };
 		31AB4CE31DAF6B62006A2404 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31AB4CE11DAF6B62006A2404 /* Main.storyboard */; };
 		31AB4CE51DAF6B62006A2404 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31AB4CE41DAF6B62006A2404 /* Assets.xcassets */; };
 		31AB4CE81DAF6B62006A2404 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31AB4CE61DAF6B62006A2404 /* LaunchScreen.storyboard */; };
 		31AB4CF31DAF6B62006A2404 /* BottomSheetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31AB4CF21DAF6B62006A2404 /* BottomSheetTests.swift */; };
+		31AB4D061DAF6BA0006A2404 /* CustomActionSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31AB4CFD1DAF6BA0006A2404 /* CustomActionSheet.swift */; };
+		31AB4D071DAF6BA0006A2404 /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31AB4CFE1DAF6BA0006A2404 /* BackgroundView.swift */; };
+		31AB4D081DAF6BA0006A2404 /* ActionSheetProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31AB4CFF1DAF6BA0006A2404 /* ActionSheetProperties.swift */; };
+		31AB4D091DAF6BA0006A2404 /* ActionSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31AB4D001DAF6BA0006A2404 /* ActionSheetView.swift */; };
+		31AB4D0A1DAF6BA0006A2404 /* ActionSheetView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 31AB4D011DAF6BA0006A2404 /* ActionSheetView.xib */; };
+		31AB4D0B1DAF6BA0006A2404 /* ActionSheetCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31AB4D021DAF6BA0006A2404 /* ActionSheetCollectionViewCell.swift */; };
+		31AB4D0C1DAF6BA0006A2404 /* ActionSheetCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 31AB4D031DAF6BA0006A2404 /* ActionSheetCollectionViewCell.xib */; };
+		31AB4D0D1DAF6BA0006A2404 /* ActionSheetTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31AB4D041DAF6BA0006A2404 /* ActionSheetTableViewCell.swift */; };
+		31AB4D0E1DAF6BA0006A2404 /* ActionSheetTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 31AB4D051DAF6BA0006A2404 /* ActionSheetTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3196533E1DC0DA63009FDFB1 /* customfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = customfont.ttf; sourceTree = "<group>"; };
 		31AB4CDA1DAF6B62006A2404 /* BottomSheet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BottomSheet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		31AB4CDD1DAF6B62006A2404 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		31AB4CDF1DAF6B62006A2404 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -36,6 +47,15 @@
 		31AB4CEE1DAF6B62006A2404 /* BottomSheetTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BottomSheetTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		31AB4CF21DAF6B62006A2404 /* BottomSheetTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomSheetTests.swift; sourceTree = "<group>"; };
 		31AB4CF41DAF6B62006A2404 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		31AB4CFD1DAF6BA0006A2404 /* CustomActionSheet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomActionSheet.swift; sourceTree = "<group>"; };
+		31AB4CFE1DAF6BA0006A2404 /* BackgroundView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackgroundView.swift; sourceTree = "<group>"; };
+		31AB4CFF1DAF6BA0006A2404 /* ActionSheetProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActionSheetProperties.swift; sourceTree = "<group>"; };
+		31AB4D001DAF6BA0006A2404 /* ActionSheetView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActionSheetView.swift; sourceTree = "<group>"; };
+		31AB4D011DAF6BA0006A2404 /* ActionSheetView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ActionSheetView.xib; sourceTree = "<group>"; };
+		31AB4D021DAF6BA0006A2404 /* ActionSheetCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActionSheetCollectionViewCell.swift; sourceTree = "<group>"; };
+		31AB4D031DAF6BA0006A2404 /* ActionSheetCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ActionSheetCollectionViewCell.xib; sourceTree = "<group>"; };
+		31AB4D041DAF6BA0006A2404 /* ActionSheetTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActionSheetTableViewCell.swift; sourceTree = "<group>"; };
+		31AB4D051DAF6BA0006A2404 /* ActionSheetTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ActionSheetTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +76,36 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3196533B1DC0D9DA009FDFB1 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				31AB4D021DAF6BA0006A2404 /* ActionSheetCollectionViewCell.swift */,
+				31AB4D031DAF6BA0006A2404 /* ActionSheetCollectionViewCell.xib */,
+				31AB4D041DAF6BA0006A2404 /* ActionSheetTableViewCell.swift */,
+				31AB4D051DAF6BA0006A2404 /* ActionSheetTableViewCell.xib */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		3196533C1DC0D9F8009FDFB1 /* Foreground/Background Views */ = {
+			isa = PBXGroup;
+			children = (
+				31AB4CFE1DAF6BA0006A2404 /* BackgroundView.swift */,
+				31AB4D001DAF6BA0006A2404 /* ActionSheetView.swift */,
+				31AB4D011DAF6BA0006A2404 /* ActionSheetView.xib */,
+			);
+			name = "Foreground/Background Views";
+			sourceTree = "<group>";
+		};
+		3196533D1DC0DA15009FDFB1 /* Properties and Wrapper Class */ = {
+			isa = PBXGroup;
+			children = (
+				31AB4CFD1DAF6BA0006A2404 /* CustomActionSheet.swift */,
+				31AB4CFF1DAF6BA0006A2404 /* ActionSheetProperties.swift */,
+			);
+			name = "Properties and Wrapper Class";
+			sourceTree = "<group>";
+		};
 		31AB4CD11DAF6B62006A2404 = {
 			isa = PBXGroup;
 			children = (
@@ -77,6 +127,10 @@
 		31AB4CDC1DAF6B62006A2404 /* BottomSheet */ = {
 			isa = PBXGroup;
 			children = (
+				3196533E1DC0DA63009FDFB1 /* customfont.ttf */,
+				3196533D1DC0DA15009FDFB1 /* Properties and Wrapper Class */,
+				3196533C1DC0D9F8009FDFB1 /* Foreground/Background Views */,
+				3196533B1DC0D9DA009FDFB1 /* Cells */,
 				31AB4CDD1DAF6B62006A2404 /* AppDelegate.swift */,
 				31AB4CDF1DAF6B62006A2404 /* ViewController.swift */,
 				31AB4CE11DAF6B62006A2404 /* Main.storyboard */,
@@ -179,7 +233,11 @@
 			files = (
 				31AB4CE81DAF6B62006A2404 /* LaunchScreen.storyboard in Resources */,
 				31AB4CE51DAF6B62006A2404 /* Assets.xcassets in Resources */,
+				31AB4D0C1DAF6BA0006A2404 /* ActionSheetCollectionViewCell.xib in Resources */,
+				3196533F1DC0DA63009FDFB1 /* customfont.ttf in Resources */,
+				31AB4D0A1DAF6BA0006A2404 /* ActionSheetView.xib in Resources */,
 				31AB4CE31DAF6B62006A2404 /* Main.storyboard in Resources */,
+				31AB4D0E1DAF6BA0006A2404 /* ActionSheetTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -197,7 +255,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				31AB4D081DAF6BA0006A2404 /* ActionSheetProperties.swift in Sources */,
+				31AB4D061DAF6BA0006A2404 /* CustomActionSheet.swift in Sources */,
+				31AB4D0B1DAF6BA0006A2404 /* ActionSheetCollectionViewCell.swift in Sources */,
+				31AB4D0D1DAF6BA0006A2404 /* ActionSheetTableViewCell.swift in Sources */,
 				31AB4CE01DAF6B62006A2404 /* ViewController.swift in Sources */,
+				31AB4D071DAF6BA0006A2404 /* BackgroundView.swift in Sources */,
+				31AB4D091DAF6BA0006A2404 /* ActionSheetView.swift in Sources */,
 				31AB4CDE1DAF6B62006A2404 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -390,6 +454,7 @@
 				31AB4CF91DAF6B62006A2404 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		31AB4CFA1DAF6B62006A2404 /* Build configuration list for PBXNativeTarget "BottomSheetTests" */ = {
 			isa = XCConfigurationList;
@@ -398,6 +463,7 @@
 				31AB4CFC1DAF6B62006A2404 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
